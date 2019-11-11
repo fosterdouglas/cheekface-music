@@ -1,18 +1,19 @@
 
 <html>
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<meta charset="" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta property="og:image" content="/wp-content/themes/twentynineteen-child/images/cover2.png" />
+	<meta property="og:image" content="images/cover2.png" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Listen to Cheekface!" />
 	<meta property="og:description" content="'big brain shit that hits' – someone on twitter" />
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.typekit.net/pnb2nwv.css">
+	<link rel="stylesheet" href="styles.css">
 
-	<link rel="shortcut icon" href="/wp-content/themes/twentynineteen-child/images/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="/wp-content/themes/twentynineteen-child/images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
 	<script src="https://kit.fontawesome.com/db0e4d907f.js"></script>
 
@@ -20,25 +21,22 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
 <!-- include Cycle2 -->
-<script src="/wp-content/themes/twentynineteen-child/scripts/jquery.cycle2.min.js"></script>
+<script src="scripts/jquery.cycle2.min.js"></script>
 
 <!-- include one or more optional Cycle2 plugins -->
-<script src="/wp-content/themes/twentynineteen-child/scripts/jquery.cycle2.center.min.js"></script>
+<script src="scripts/jquery.cycle2.center.min.js"></script>
 
 
 </head>
 
-<body class="bg-white">
+<body class="d-flex flex-column h-100 bg-white">
 
 
-<div>
+<main class="">
 
 
-	<div class="container">
-	  <div class="row">
-		<div class="col-sm">
-		</div>
-		<div class="col-sm-8">
+	<div class="ml-0 container-fluid">
+		<div class="">
 
 			<div class="cycle-slideshow vertical-center"
 				 data-cycle-auto-height=container
@@ -46,47 +44,39 @@
     			 data-cycle-center-vert=true
 				 data-cycle-random=true
 				 >
-				<img class="therapy-island" target="_blank" src="/wp-content/themes/twentynineteen-child/images/00-therapy-island.gif" />
-				<img class="therapy-island" target="_blank" src="/wp-content/themes/twentynineteen-child/images/01-eternity-leave.gif" />
-				<img class="therapy-island" target="_blank" src="/wp-content/themes/twentynineteen-child/images/02-here-i-was.gif" />
-				<img class="therapy-island" target="_blank" src="/wp-content/themes/twentynineteen-child/images/03-sexy-national-anthem.gif" />
-				<img class="therapy-island" target="_blank" src="/wp-content/themes/twentynineteen-child/images/04-stop-believing.gif" />
-				<img class="therapy-island" target="_blank" src="/wp-content/themes/twentynineteen-child/images/05-only-say-im-sorry.gif" />
-				<img class="therapy-island" target="_blank" src="/wp-content/themes/twentynineteen-child/images/06-glendale.gif" />
-				<img class="therapy-island" target="_blank" src="/wp-content/themes/twentynineteen-child/images/07-dry-heat.gif" />
-				<img class="therapy-island" target="_blank" src="/wp-content/themes/twentynineteen-child/images/08-ballad.gif" />
-				<img class="new-album" target="_blank" src="/wp-content/themes/twentynineteen-child/images/01-heart.gif" />
+				<img class="therapy-island" target="_blank" src="images/00-therapy-island.gif" />
+				<img class="therapy-island" target="_blank" src="images/01-eternity-leave.gif" />
+				<img class="therapy-island" target="_blank" src="images/02-here-i-was.gif" />
+				<img class="therapy-island" target="_blank" src="images/03-sexy-national-anthem.gif" />
+				<img class="therapy-island" target="_blank" src="images/04-stop-believing.gif" />
+				<img class="therapy-island" target="_blank" src="images/05-only-say-im-sorry.gif" />
+				<img class="therapy-island" target="_blank" src="images/06-glendale.gif" />
+				<img class="therapy-island" target="_blank" src="images/07-dry-heat.gif" />
+				<img class="therapy-island" target="_blank" src="images/08-ballad.gif" />
+				<img class="new-album" target="_blank" src="images/01-heart.gif" />
 			</div>
 
-			<noscript><img class="w-100 mx-auto" src="/wp-content/themes/twentynineteen-child/images/00-therapy-island.gif" /></noscript>
-
-		</div>
-		<div class="col-sm">
+			<noscript><img class="w-100 mx-auto" src="images/00-therapy-island.gif" /></noscript>
 
 		</div>
 	  </div>
+	</main>
+
+	<footer class="container-fluid fixed-bottom">
+		<div class="row mb-3">
+
+		<div class="mx-auto text-center d-flex justify-content-center">
+			<div class="card ml-1 mr-1"><a href="https://open.spotify.com/artist/32kCEAvtuFzIZA15zrhQDW" target="_blank"><i class="fab fa-spotify fa-lg w-100 h-100 btn bg-transparent p-2"></i></a></div>
+			<div class="card ml-1 mr-1"><a href="https://cheekface.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp fa-lg w-100 h-100 btn bg-transparent p-2"></i></a></div>
+			<div class="card ml-1 mr-1"><a href="https://itunes.apple.com/us/artist/cheekface/1362262157" target="_blank"><i class="fab fa-apple fa-lg w-100 h-100 btn bg-transparent p-2"></i></a></div>
+			<div class="card ml-1 mr-1"><a href="https://www.instagram.com/therealcheekface/" target="_blank"><i class="fab fa-instagram fa-lg w-100 h-100 btn bg-transparent p-2"></i></a></div>
+			<div class="card ml-1 mr-1"><a href="https://twitter.com/cheekfaceREAL" target="_blank"><i class="fab fa-twitter fa-lg w-100 h-100 btn bg-transparent p-2"></i></a></div>
+			<div class="card ml-1 mr-1"><a href="https://www.facebook.com/Cheekface/" target="_blank"><i class="fab fa-facebook-f fa-lg w-100 h-100 btn bg-transparent p-2"></i></a></div>
+			<div class="card ml-1 mr-1"><a href="mailto:therealcheekface@gmail.com" target="_blank"><i class="fab fa-telegram-plane fa-lg w-100 h-100 btn bg-transparent p-2"></i></a></div>
+		</div>
 	</div>
 
-	<div class="sidenav">
-
-		<div class="col-12 mb-0 d-flex d-sm-block justify-content-center">
-			<div class="card ml-1 mr-1 mobile-width"><a href="https://open.spotify.com/artist/32kCEAvtuFzIZA15zrhQDW" target="_blank"><i class="fab fa-spotify w-100 h-100 btn bg-transparent p-2"></i></a></div>
-			<div class="card ml-1 mr-1 mobile-width"><a href="https://cheekface.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp w-100 h-100 btn bg-transparent p-2"></i></a></div>
-			<div class="card ml-1 mr-1 mobile-width"><a href="https://itunes.apple.com/us/artist/cheekface/1362262157" target="_blank"><i class="fab fa-apple w-100 h-100 btn bg-transparent p-2"></i></a></div>
-		</div>
-
-		<div class="w-100"></div>
-
-		 <div class="col-12 d-flex d-sm-block justify-content-center">
-			<div class="card ml-2 mr-2 mobile-width"><a href="https://www.instagram.com/therealcheekface/" target="_blank"><i class="fab fa-instagram w-100 h-100 btn bg-transparent p-2"></i></a></div>
-			<div class="card ml-2 mr-2 mobile-width"><a href="https://twitter.com/cheekfaceREAL" target="_blank"><i class="fab fa-twitter w-100 h-100 btn bg-transparent p-2"></i></a></div>
-			<div class="card ml-2 mr-2 mobile-width"><a href="https://www.facebook.com/Cheekface/" target="_blank"><i class="fab fa-facebook-f w-100 h-100 btn bg-transparent p-2"></i></a></div>
-			 <div class="card ml-2 mr-2 mobile-width"><a href="mailto:therealcheekface@gmail.com" target="_blank"><i class="fab fa-telegram-plane w-100 h-100 btn bg-transparent p-2"></i></a></div>
-		</div>
-
-	</div>
-
-</div>
+</footer>
 
 <script>
 $(".therapy-island").click(function() {
