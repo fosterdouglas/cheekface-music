@@ -1,0 +1,139 @@
+/*
+ Theme Name:   Twenty Nineteen Child
+ Template:     twentynineteen
+ Version: 1.0.0
+*/
+
+
+html, body {
+	margin: 0;
+	height: 100%; 
+	width: 100%;
+	overflow: hidden
+}
+
+a:focus {
+	outline: none;
+}
+
+.therapy-island {
+    cursor:pointer;
+}
+
+.fab {
+	line-height: inherit;
+}
+
+.cycle-slideshow { 
+	width: 125%;
+	height: 125%;
+	left: -13%;
+}
+
+.cycle-slideshow img { 
+	height: auto; 
+	max-height: 100vh !important;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+img {
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+/*COLOR*/
+
+.bg-white {
+	background-color: #FFF;
+}
+
+.fa-spotify:hover {
+	color: #1db954 !important;
+}
+
+.fa-bandcamp:hover {
+	color: #629aa9 !important;
+}
+
+.fa-apple:hover {
+	color: #999 !important;
+}
+
+.fa-instagram:hover {
+	color: #c13584 !important;
+}
+
+.fa-twitter:hover {
+	color: #1da1f2 !important;
+}
+
+.fa-facebook-f:hover {
+	color: #3b5998 !important;
+}
+
+.fa-telegram-plane:hover {
+	color: pink !important;
+}
+.btn {
+	color: #eaeaea !important;
+}
+
+
+
+/*GENERAL*/
+
+
+.card {
+	border: 0px #fff solid !important;
+}
+
+
+.sidenav {
+  position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 20; /* Stay on top */
+  right: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+
+@media screen and (max-width: 575.98px) {
+	.sidenav {
+		bottom: 11% !important;
+		right: unset !important;
+		top: unset !important;
+		left: 50% !important;
+ 	    -ms-transform: translateX(-50%) !important;
+		-webkit-transform: translateX(-50%) !important;
+	    transform: translateX(-50%) !important;
+		
+	}
+	
+	.container {
+		margin-top: -40% !important;
+	}
+	
+	.mobile-width {
+		width: 25% !important;
+		margin-bottom: -0.5rem !important;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	
+}
+
